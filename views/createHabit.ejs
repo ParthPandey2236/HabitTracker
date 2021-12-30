@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <link rel="stylesheet" href="/css/landingPage.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/noty/3.1.4/noty.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <script src="/js/jquery-3.6.0.js"></script>
+</head>
+
+<body>
+    <div id="title">Create your habit</div>
+    <!-- <form action="/createHabit" method="POST"> -->
+        <div id="Name">
+            <input type="text" placeholder="Habit's Name" name="habit" required >
+            <input type="date" name="date" required>
+            
+                
+            
+            
+        </div>
+        <input type="submit" id="submit">
+        
+    <!-- </form> -->
+    
+    <!-- <div>
+        <input type="date">
+    </div> -->
+    <!-- <div id = "noHabits">
+        No Habits for today
+    </div> -->
+    <!-- <div id="Habits">
+        <div class="HabitTile">
+            Workout
+            <div class="checkBox">
+                <input type="checkbox">
+                <span>Done</span>
+                <input type="checkbox">
+                <span>Not Done</span>
+            </div>
+        </div>
+    </div> -->
+    <div class="fab-container">
+        <div class="fab fab-icon-holder">
+            <i class="fas fa-question"></i>
+        </div>
+        <ul class="fab-options">
+            <li>
+                
+                <span class="fab-label">Add Habit</span>
+                <div class="fab-icon-holder">
+                    <i class="fas fa-plus"></i>
+                </div>
+            </li>
+            <a href="/landingPage">
+            <li>
+                
+                <span class="fab-label">Go To</span>
+                <div class="fab-icon-holder">
+                    <i class="fas fa-calendar"></i>
+                </div>
+                
+            </li>
+            </a>
+        </ul>
+    </div>
+
+</body>
+<script src="/js/createHabit.js"></script>
+</html>

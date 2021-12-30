@@ -1,0 +1,171 @@
+#title {
+    text-align: center;
+    color:aliceblue;
+    font-size: 50px;
+    padding: none;
+    height: 20%;
+}
+#noHabits{
+    color:aliceblue;
+    font-size: 40px;
+    padding: none;
+    height: 20%;
+    text-align: center;
+    margin-top: 10%;
+}
+html, body{
+  
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(to right, #99004d 0%, #ff0080 100%);
+}
+.fab-container {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.fab-icon-holder {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: #f5f6f7;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2);
+}
+
+.fab-icon-holder:hover {
+  opacity: 0.8;
+}
+
+.fab-icon-holder i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  font-size: 25px;
+  color: #ff0080;
+}
+
+.fab {
+  width: 60px;
+  height: 60px;
+  background: #f3f1f1;
+}
+
+.fab-options {
+  list-style-type: none;
+  margin: 0;
+  position: absolute;
+  bottom: 70px;
+  right: 0;
+  opacity: 0;
+  transition: all 0.3s ease;
+  transform: scale(0);
+  transform-origin: 85% bottom;
+}
+
+.fab:hover+.fab-options,
+.fab-options:hover {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.fab-options li {
+  display: flex;
+  justify-content: flex-end;
+  padding: 5px;
+}
+
+.fab-label {
+  padding: 2px 5px;
+  align-self: center;
+  user-select: none;
+  white-space: nowrap;
+  border-radius: 3px;
+  font-size: 16px;
+  background: transparent;
+  color: #f5ecf0;
+  /* box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2); */
+  margin-right: 10px;
+}
+input[type="date"]{
+    background-color: #2658d8;
+    padding: 15px;
+    margin-left: 20px;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+::-webkit-calendar-picker-indicator{
+    background-color: #ffffff;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+.HabitTile{
+    background-color: #0080ff;
+    padding: 15px;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    margin-left: 20px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 80%;
+    margin-top: 5%;
+}
+#Habits{
+  margin-left : 15%;
+}
+
+.checkBox{
+  font-size: 20px;
+  padding-left: 70%;
+}
+input[type="text"]{
+  background-color: #0080ff;
+    padding: 15px;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    margin-left: 10%;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 60%;
+    margin-top: 5%;
+}
+input[type="submit"]{
+  background-color: #357abe;
+    padding: 15px;
+    /* position: absolute; */
+    /* transform: translate(-50%,-50%); */
+    margin-left: 20px;
+    font-family: "Roboto Mono",monospace;
+    color: #ffffff;
+    font-size: 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    width: 20%;
+    left: 40%;
+    position: absolute;
+    margin-top: 5%;
+}
+a, a:hover, a:focus, a:active {
+     text-decoration: none;
+     color: inherit;
+ }
+
